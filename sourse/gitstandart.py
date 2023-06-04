@@ -1,6 +1,14 @@
-def plant(a, b):
+def plus(a, b):
     return a + b
 
 
+text = 'new text'
+
+
+def minus(a, b):
+    return a - b
+
+
 if __name__ == '__main__':
-    print(plant(2, 5))
+    print(plus(2, 5))
+    print(minus(5, 2))
